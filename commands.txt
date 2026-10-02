@@ -16,5 +16,6 @@ grep -P -o '(CHAPTER)(.)*' twocities.txt
 git remote add origin git@github.com:elizabethn26/software-saturdays-homework.git
 git commit -m "Finished homework"
 git push --set-upstream origin master
+git add commands.txt
 git commit -m "Updated commands file"
 git push
