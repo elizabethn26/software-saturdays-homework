@@ -13,3 +13,8 @@ grep -P -o '\b\w+\.' twocities.txt > twocities_sentence_endings.txt
 grep -P -o '\b(\w){5}\.' twocities.txt > twocities_five_letters.txt
 grep -P -o '\b(\w){17}\b' twocities.txt
 grep -P -o '(CHAPTER)(.)*' twocities.txt
+git remote add origin git@github.com:elizabethn26/software-saturdays-homework.git
+git commit -m "Finished homework"
+git push --set-upstream origin master
+git commit -m "Updated commands file"
+git push
